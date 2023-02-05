@@ -54,7 +54,7 @@ const Navbar = () => {
                 <li key={item.id}>
                   <Link
                     href={`${item.path}`}
-                    className={` block py-2 pr-4 pl-3 ${styles.paragraph} text-black lg:p-0 `}
+                    className={` block py-2 pr-4 pl-3  text-black lg:p-0 `}
                     aria-current="page"
                   >
                     {item.name}
@@ -119,7 +119,7 @@ const Navbar = () => {
                   <li key={item.id}>
                     <Link
                       href={`${item.path}`}
-                      className={`${styles.paragraph} block  pr-4 pl-3 bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 `}
+                      className={`mb-4 block  pr-4 pl-3 bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 `}
                       aria-current="page"
                     >
                       {item.name}
