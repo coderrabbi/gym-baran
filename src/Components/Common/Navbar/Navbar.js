@@ -106,14 +106,14 @@ const Navbar = () => {
           </div>
           {isMenu && (
             <div
-              className={`flex justify-between absolute  z-10 top-[54px] border-t-2 w-full mx-auto lg:hidden ${
+              className={`h-screen flex justify-between border-t-2  w-full mx-auto lg:hidden ${
                 isMenu
                   ? "slide-right"
                   : "animate-out slide-out-from-left duration-300"
               } `}
             >
               <ul
-                className={`flex flex-col justify-center items-center w-full mx-auto font-medium`}
+                className={`flex flex-col justify-start items-center w-full mx-auto font-medium`}
               >
                 {menuItems.map((item) => (
                   <li key={item.id}>
