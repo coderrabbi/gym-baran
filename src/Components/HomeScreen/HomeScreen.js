@@ -12,6 +12,7 @@ import reebok from "../../assets/reebok.png";
 import Hero from "../Hero/Hero";
 import About from "../About/About";
 import Services from "../Services/Services";
+import WorkOutSection from "../WorkOutSection/WorkOutSection";
 const HomeScreen = () => {
   const brands = [nike, adidas, puma, reebok];
   return (
@@ -19,6 +20,7 @@ const HomeScreen = () => {
       <Hero />
       <About />
       <Services />
+      <WorkOutSection />
     </Layout>
   );
 };
