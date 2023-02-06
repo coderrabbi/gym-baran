@@ -17,7 +17,7 @@ const HowToWork = () => {
         </div>
         <div>
           <h1
-            className={`md:text-[46px] text-[28px]  md:leading-[73px] leading-[39.2px] font-SportingGrotesque flex-1`}
+            className={`md:text-[46px] text-[28px] mt-10 mb-5 md:mb-2  md:leading-[73px] leading-[39.2px] font-SportingGrotesque flex-1`}
           >
             How it works?
           </h1>

@@ -43,26 +43,37 @@ const Features = () => {
     },
   ];
   return (
-    <div className={`${styles.padding}`}>
-      <div className="text-center mb-5">
-        <h1
-          className={`md:text-[46px] text-[28px]  md:leading-[73px] leading-[39.2px] font-SportingGrotesque flex-1`}
-        >
-          Programs that can <br /> be taken
-        </h1>
+    <div className="relative">
+      <div className="absolute w-1/2 bg-[#F3B411] opacity-[0.3] h-full blur-[282px] -z-10">
+        {" "}
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">
-        {feature.map((f, i) => (
-          <div key={i} className="flex items-center ">
-            <div>
-              <Image src={f.img} alt={f.title} className={`w-[80px] `}></Image>
+      <div className={`${styles.padding}`}>
+        <div className="md:text-center text-left mb-5">
+          <h1
+            className={`md:text-[46px] text-[28px]  md:leading-[73px] leading-[39.2px] font-SportingGrotesque flex-1`}
+          >
+            Programs that can <br /> be taken
+          </h1>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+          {feature.map((f, i) => (
+            <div key={i} className="flex items-center ">
+              <div>
+                <Image
+                  src={f.img}
+                  alt={f.title}
+                  className={`w-[80px] `}
+                ></Image>
+              </div>
+              <div className="w-[230px] flex flex-col gap-3 ">
+                <h4 className="font-poppins font-bold text-[16px] ">
+                  {f.title}
+                </h4>
+                <span className="text-[#92908a]">{f.discription}</span>
+              </div>
             </div>
-            <div className="w-[230px] flex flex-col gap-3 ">
-              <h4 className="font-poppins font-bold text-[16px] ">{f.title}</h4>
-              <span className="text-[#92908a]">{f.discription}</span>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

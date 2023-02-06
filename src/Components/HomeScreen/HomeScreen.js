@@ -15,6 +15,7 @@ import Services from "../Services/Services";
 import WorkOutSection from "../WorkOutSection/WorkOutSection";
 import HowToWork from "../HowToWork/HowToWork";
 import Features from "../Features/Features";
+import Testimonials from "../Testimonials/Testimonials";
 const HomeScreen = () => {
   const brands = [nike, adidas, puma, reebok];
   return (
@@ -25,6 +26,7 @@ const HomeScreen = () => {
       <WorkOutSection />
       <HowToWork />
       <Features />
+      <Testimonials />
     </Layout>
   );
 };
