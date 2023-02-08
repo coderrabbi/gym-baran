@@ -11,8 +11,8 @@ import reebok from "../../assets/reebok.png";
 const Hero = () => {
   const brands = [nike, adidas, puma, reebok];
   return (
-    <div className="relative -z-10">
-      <div className="absolute -z-10 w-[50%] h-full bg-[#D388FF] opacity-[0.6] blur-[282px]"></div>
+    <div className="relative z-[1]">
+      <div className="absolute z-[0] w-[50%] h-full bg-[#D388FF] opacity-[0.6] blur-[282px]"></div>
       <div
         className={`${styles.padding} relative z-10 flex items-center md:flex-row flex-col md:gap-3 gap-10`}
       >
