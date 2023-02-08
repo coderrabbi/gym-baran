@@ -32,7 +32,7 @@ const Navbar = () => {
     setIsMenu(!isMenu);
   };
   return (
-    <header className="">
+    <header className="sticky z-20">
       <nav className=" lg:w-full backdrop-blur-sm border-gray-200 px-4 lg:px-6 py-2.5 ">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link href="/" className="flex gap-1 items-center">
