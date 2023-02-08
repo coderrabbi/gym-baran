@@ -106,7 +106,7 @@ const Navbar = () => {
           </div>
           {isMenu && (
             <div
-              className={`h-[280px] flex absolute top-[60px] right-0  bg-gray-500 z-40 w-[250px] py-8 rounded-xl text-white justify-between border-t-2  mx-auto lg:hidden ${
+              className={`h-[280px] flex absolute top-[60px] right-0  bg-gray-500 z-[99] w-[250px] py-8 rounded-xl text-white justify-between border-t-2  mx-auto lg:hidden ${
                 isMenu
                   ? "scale-up-center"
                   : "animate-out slide-out-from-left duration-300"
